@@ -9,7 +9,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>zzx-boot-dependices</module>
+        <module>zzx-boot-framework</module>
+
         <!--  各种 module 拓展 -->
+        <module>zzx-boot-workflow</module>
 
     </modules>
 
@@ -30,6 +33,9 @@
         <spring.boot.version>3.2.0</spring.boot.version>
         <mapstruct.version>1.5.5.Final</mapstruct.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- 工作流：camunda -->
+        <camunda.version>7.15.0</camunda.version>
     </properties>
 
     <!-- 只对版本进行管理，不进行引入，所以此处声明的依赖在子模块中声明时不需要指定版本号 -->
