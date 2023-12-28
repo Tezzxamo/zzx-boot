@@ -189,11 +189,11 @@
                 <version>${mybatis-plus-join.version}</version>
             </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.cloud</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-redis</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>zzx-boot-starter-redis</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.redisson</groupId>
@@ -210,11 +210,11 @@
 
 
             <!-- RPC 远程调用相关 -->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.cloud</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-rpc</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <!--            <dependency>-->
+            <!--                <groupId>cn.iocoder.cloud</groupId>-->
+            <!--                <artifactId>yudao-spring-boot-starter-rpc</artifactId>-->
+            <!--                <version>${revision}</version>-->
+            <!--            </dependency>-->
 
             <!-- Registry 注册中心相关 -->
 
@@ -226,11 +226,11 @@
                 <artifactId>xxl-job-core</artifactId>
                 <version>${xxl-job.version}</version>
             </dependency>
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.cloud</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-job</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <!--            <dependency>-->
+            <!--                <groupId>cn.iocoder.cloud</groupId>-->
+            <!--                <artifactId>yudao-spring-boot-starter-job</artifactId>-->
+            <!--                <version>${revision}</version>-->
+            <!--            </dependency>-->
             <!-- Job 定时任务相关结束 -->
 
             <!-- 消息队列相关 -->

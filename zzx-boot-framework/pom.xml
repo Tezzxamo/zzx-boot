@@ -29,6 +29,7 @@
         <module>zzx-boot-starter-camunda</module>
         <module>zzx-boot-starter-websocket</module>
         <module>zzx-boot-starter-mybatis</module>
+        <module>zzx-boot-starter-redis</module>
     </modules>
 
     <description>

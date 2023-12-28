@@ -22,15 +22,15 @@
         </dependency>
 
         <!-- DB 相关 -->
-<!--        <dependency>-->
-<!--            <groupId>cn.iocoder.cloud</groupId>-->
-<!--            <artifactId>yudao-spring-boot-starter-mybatis</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>zzx-boot-starter-mybatis</artifactId>
+        </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>cn.iocoder.cloud</groupId>-->
-<!--            <artifactId>yudao-spring-boot-starter-redis</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>zzx-boot-starter-redis</artifactId>
+        </dependency>
 
         <!-- Test 测试相关 -->
         <dependency>

@@ -1,8 +1,14 @@
 package org.example.framework.test.core.ut;
 
 
+import com.alibaba.druid.spring.boot3.autoconfigure.DruidDataSourceAutoConfigure;
+import com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration;
+import org.example.framework.datasource.config.YudaoDataSourceAutoConfiguration;
+import org.example.framework.mybatis.config.YudaoMybatisAutoConfiguration;
+import org.example.framework.redis.config.YudaoRedisAutoConfiguration;
 import org.example.framework.test.config.RedisTestConfiguration;
 import org.example.framework.test.config.SqlInitializationTestConfiguration;
+import org.redisson.spring.starter.RedissonAutoConfiguration;
 import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
@@ -13,7 +19,7 @@ import org.springframework.test.context.jdbc.Sql;
 
 /**
  * 依赖内存 DB + Redis 的单元测试
- *
+ * <p>
  * 相比 {@link BaseDbUnitTest} 来说，额外增加了内存 Redis
  *
  * @author 芋道源码
