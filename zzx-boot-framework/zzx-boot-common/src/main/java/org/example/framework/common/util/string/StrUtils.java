@@ -16,7 +16,8 @@ import java.util.stream.Collectors;
 public class StrUtils {
 
     public static String maxLength(CharSequence str, int maxLength) {
-        return StrUtil.maxLength(str, maxLength - 3); // -3 的原因，是该方法会补充 ... 恰好
+        // -3 的原因，是该方法会补充 ... 恰好
+        return StrUtil.maxLength(str, maxLength - 3);
     }
 
     /**
@@ -53,7 +54,7 @@ public class StrUtils {
     /**
      * 移除字符串中，包含指定字符串的行
      *
-     * @param content 字符串
+     * @param content  字符串
      * @param sequence 包含的字符串
      * @return 移除后的字符串
      */

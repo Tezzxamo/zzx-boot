@@ -37,10 +37,10 @@
         </dependency>
 
         <!-- 消息队列相关 -->
-<!--        <dependency>-->
-<!--            <groupId>cn.iocoder.cloud</groupId>-->
-<!--            <artifactId>yudao-spring-boot-starter-mq</artifactId>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>cn.iocoder.cloud</groupId>-->
+        <!--            <artifactId>yudao-spring-boot-starter-mq</artifactId>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
@@ -58,14 +58,14 @@
         </dependency>
 
         <!-- 业务组件 -->
-<!--        <dependency>-->
-<!--            &lt;!&ndash; 为什么要依赖 tenant 组件？-->
-<!--                因为广播某个类型的用户时候，需要根据租户过滤下，避免广播到别的租户！-->
-<!--            &ndash;&gt;-->
-<!--            <groupId>cn.iocoder.cloud</groupId>-->
-<!--            <artifactId>yudao-spring-boot-starter-biz-tenant</artifactId>-->
-<!--            <scope>provided</scope>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            &lt;!&ndash; 为什么要依赖 tenant 组件？-->
+        <!--                因为广播某个类型的用户时候，需要根据租户过滤下，避免广播到别的租户！-->
+        <!--            &ndash;&gt;-->
+        <!--            <groupId>cn.iocoder.cloud</groupId>-->
+        <!--            <artifactId>yudao-spring-boot-starter-biz-tenant</artifactId>-->
+        <!--            <scope>provided</scope>-->
+        <!--        </dependency>-->
     </dependencies>
 
 

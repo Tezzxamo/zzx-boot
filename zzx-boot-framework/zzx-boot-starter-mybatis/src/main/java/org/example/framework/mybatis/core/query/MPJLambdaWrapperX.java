@@ -119,7 +119,7 @@ public class MPJLambdaWrapperX<T> extends MPJLambdaWrapper<T> {
 
     @Override
     public <X> MPJLambdaWrapperX<T> orderByDesc(SFunction<X, ?> column) {
-        //noinspection unchecked
+        // noinspection unchecked
         super.orderByDesc(true, column);
         return this;
     }
