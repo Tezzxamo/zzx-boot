@@ -127,6 +127,17 @@
 
 
             <!-- Web 相关 -->
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>zzx-boot-starter-web</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>zzx-boot-starter-websocket</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
@@ -143,7 +154,98 @@
                 <artifactId>knife4j-gateway-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
             </dependency>
+            <!-- Web 相关结束 -->
 
+            <!-- DB 相关 -->
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>zzx-boot-starter-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-3-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId> <!-- 代码生成器，使用它解析表结构 -->
+                <version>${mybatis-plus-generator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>dynamic-datasource-spring-boot3-starter</artifactId> <!-- 多数据源 -->
+                <version>${dynamic-datasource.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.yulichang</groupId>
+                <artifactId>mybatis-plus-join-boot-starter</artifactId> <!-- MyBatis 联表查询 -->
+                <version>${mybatis-plus-join.version}</version>
+            </dependency>
+
+<!--            <dependency>-->
+<!--                <groupId>cn.iocoder.cloud</groupId>-->
+<!--                <artifactId>yudao-spring-boot-starter-redis</artifactId>-->
+<!--                <version>${revision}</version>-->
+<!--            </dependency>-->
+
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.dameng</groupId>
+                <artifactId>DmJdbcDriver18</artifactId>
+                <version>${dm8.jdbc.version}</version>
+            </dependency>
+            <!-- DB 相关结束 -->
+
+
+            <!-- RPC 远程调用相关 -->
+<!--            <dependency>-->
+<!--                <groupId>cn.iocoder.cloud</groupId>-->
+<!--                <artifactId>yudao-spring-boot-starter-rpc</artifactId>-->
+<!--                <version>${revision}</version>-->
+<!--            </dependency>-->
+
+            <!-- Registry 注册中心相关 -->
+
+            <!-- Config 配置中心相关 -->
+
+            <!-- Job 定时任务相关 -->
+            <dependency>
+                <groupId>com.xuxueli</groupId>
+                <artifactId>xxl-job-core</artifactId>
+                <version>${xxl-job.version}</version>
+            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>cn.iocoder.cloud</groupId>-->
+<!--                <artifactId>yudao-spring-boot-starter-job</artifactId>-->
+<!--                <version>${revision}</version>-->
+<!--            </dependency>-->
+            <!-- Job 定时任务相关结束 -->
+
+            <!-- 消息队列相关 -->
+            <!--            <dependency>-->
+            <!--                <groupId>cn.iocoder.cloud</groupId>-->
+            <!--                <artifactId>yudao-spring-boot-starter-mq</artifactId>-->
+            <!--                <version>${revision}</version>-->
+            <!--            </dependency>-->
+
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocketmq-spring.version}</version>
+            </dependency>
+            <!-- 消息队列相关结束 -->
 
             <!-- 监控相关 -->
             <dependency>

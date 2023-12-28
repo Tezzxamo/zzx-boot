@@ -19,10 +19,16 @@
     </properties>
 
     <modules>
-        <module>zzx-boot-starter-camunda</module>
         <module>zzx-boot-common</module>
+
         <module>zzx-boot-starter-test</module>
         <module>zzx-boot-starter-banner</module>
+
+        <module>zzx-boot-starter-web</module>
+
+        <module>zzx-boot-starter-camunda</module>
+        <module>zzx-boot-starter-websocket</module>
+        <module>zzx-boot-starter-mybatis</module>
     </modules>
 
     <description>

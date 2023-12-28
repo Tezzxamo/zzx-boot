@@ -1,1 +1,0 @@
-package org.example.framework.test.core.ut;
