@@ -115,6 +115,11 @@
                 <artifactId>zzx-boot-starter-banner</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>zzx-boot-starter-captcha</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
 
             <!-- Spring 核心 -->
@@ -248,11 +253,11 @@
             <!-- 消息队列相关结束 -->
 
             <!-- 监控相关 -->
-            <dependency>
-                <groupId>cn.iocoder.cloud</groupId>
-                <artifactId>yudao-spring-boot-starter-monitor</artifactId>
-                <version>${revision}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>cn.iocoder.cloud</groupId>-->
+<!--                <artifactId>yudao-spring-boot-starter-monitor</artifactId>-->
+<!--                <version>${revision}</version>-->
+<!--            </dependency>-->
 
             <dependency>
                 <groupId>org.apache.skywalking</groupId>

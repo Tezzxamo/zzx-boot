@@ -8,34 +8,34 @@
         <artifactId>zzx-boot-framework</artifactId>
         <version>${revision}</version>
     </parent>
+
+    <artifactId>zzx-boot-starter-captcha</artifactId>
+
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
-    <description>Redis 封装拓展</description>
-    <artifactId>zzx-boot-starter-redis</artifactId>
-
+    <description>验证码拓展
+        1. 基于 aj-captcha 实现滑块验证码，文档：https://ajcaptcha.beliefteam.cn/captcha-doc/
+    </description>
 
     <dependencies>
+        <!-- Spring 核心 -->
         <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>zzx-boot-common</artifactId>
+            <groupId>com.xingyuv</groupId>
+            <artifactId>spring-boot-starter-captcha-plus</artifactId>
+        </dependency>
+        <!-- Spring 核心 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <!-- DB 相关 -->
         <dependency>
-            <groupId>org.redisson</groupId>
-            <artifactId>redisson-spring-boot-starter</artifactId>
+            <groupId>org.example</groupId>
+            <artifactId>zzx-boot-starter-redis</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-cache</artifactId> <!-- 实现对 Caches 的自动化配置 -->
-        </dependency>
-
-        <dependency>
-            <groupId>com.fasterxml.jackson.datatype</groupId>
-            <artifactId>jackson-datatype-jsr310</artifactId>
-        </dependency>
     </dependencies>
 
 </project>

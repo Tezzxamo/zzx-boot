@@ -21,8 +21,10 @@
     <modules>
         <module>zzx-boot-common</module>
 
-        <module>zzx-boot-starter-test</module>
+        <!-- banner:输出启动图案 -->
         <module>zzx-boot-starter-banner</module>
+        <!-- test:测试 -->
+        <module>zzx-boot-starter-test</module>
 
         <module>zzx-boot-starter-web</module>
 
@@ -30,6 +32,7 @@
         <module>zzx-boot-starter-websocket</module>
         <module>zzx-boot-starter-mybatis</module>
         <module>zzx-boot-starter-redis</module>
+        <module>zzx-boot-starter-captcha</module>
     </modules>
 
     <description>
