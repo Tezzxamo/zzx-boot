@@ -19,20 +19,30 @@
     </properties>
 
     <modules>
+        <!-- common:公共模块 -->
         <module>zzx-boot-common</module>
 
+        <!-- 常规模块 -->
         <!-- banner:输出启动图案 -->
         <module>zzx-boot-starter-banner</module>
+        <!-- captcha:验证码 -->
+        <module>zzx-boot-starter-captcha</module>
+        <!-- desensitize:脱敏 -->
+        <module>zzx-boot-starter-desensitize</module>
         <!-- test:测试 -->
         <module>zzx-boot-starter-test</module>
 
-        <module>zzx-boot-starter-web</module>
+        <!-- 业务模块 -->
+        <!-- biz-data-permission:数据权限 -->
 
+        <!-- 核心模块 -->
+        <module>zzx-boot-starter-web</module>
         <module>zzx-boot-starter-camunda</module>
         <module>zzx-boot-starter-websocket</module>
         <module>zzx-boot-starter-mybatis</module>
         <module>zzx-boot-starter-redis</module>
-        <module>zzx-boot-starter-captcha</module>
+        <module>zzx-boot-starter-rpc</module>
+
     </modules>
 
     <description>
